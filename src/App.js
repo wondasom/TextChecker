@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Mini Text Checker</h1>
+      <h1>Local Text Checker</h1>
       <TextChecker itemsNumber={itemsNumber} setItemsNumber={setItemsNumber} />
     </div>
   );
