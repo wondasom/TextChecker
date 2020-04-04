@@ -1,2 +1,0 @@
-# TextChecker
-Created with CodeSandbox
