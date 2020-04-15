@@ -85,6 +85,7 @@ export default class TextChecker extends React.Component {
 
         <div className="originalText">
           <h3>Original Text</h3>
+          <p className="textLength">{this.state.originalText.length} Characters</p>
           <textarea
             className="textBox"
             rows="10"
@@ -94,11 +95,14 @@ export default class TextChecker extends React.Component {
               this.setState({ originalText: event.target.value })
             }
           />
+          
           <Button label="DELETE WORDS" onClick={this.handleChange} />
         </div>
 
         <div className="betterText">
+          
           <h3>Better Text</h3>
+          <p className="textLength">{this.state.betterText.length} Characters</p>
           <p className="textBox"> {this.state.betterText} </p>
           <Button label="SHOW WORDS" onClick={this.handleClick} />
           <table className="unnecessaryWords">

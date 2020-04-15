@@ -33,6 +33,7 @@ h2 {
 p {
   line-height: 2.1em;
   font-size: 1.2em;
+  color: #333;
 }
 
 p span {
@@ -69,12 +70,14 @@ button {
   border: 3px solid 333333;
 }
 
-.betterText p {
+.betterText .textBox {
   border: 3px solid #6b82ff;
   padding: 20px;
   height: 10em;
   text-align: left;
 }
+
+
 
 .guide {
   margin: 2em;
@@ -127,3 +130,4 @@ button {
   color: #ffffff;
   border: 3px solid #6b82ff;
 }
+
