@@ -105,9 +105,9 @@ export default class TextChecker extends React.Component {
           <p className="textLength">{this.state.betterText.length} Characters</p>
           <p className="textBox"> {this.state.betterText} </p>
           <Button label="SHOW WORDS" onClick={this.handleClick} />
-          <table className="unnecessaryWords">
+          <table className="overUsedWords">
             <tr>
-              {this.state.unnecessaryWords.map(element => {
+              {this.state.overUsedWords.map(element => {
                 return <th>{element}</th>;
               })}
             </tr>

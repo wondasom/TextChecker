@@ -50,18 +50,18 @@ button {
   font-size: 1em;
 }
 
-.unnecessaryWords {
+.overUsedWords {
   margin: 0 auto;
   padding: 20px;
 }
 
-.unnecessaryWords th {
+.overUsedWords th {
   background-color: #6b82ff;
   color: #ffffff;
   padding: 0.5em;
 }
 
-.unnecessaryWords td {
+.overUsedWords td {
   padding: 0.5em;
   color: #333333;
 }
